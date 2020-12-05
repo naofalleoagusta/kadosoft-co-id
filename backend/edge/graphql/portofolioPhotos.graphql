@@ -1,0 +1,9 @@
+
+type PortofolioPhotos {
+    id: ID!
+    type: String!
+    portofolio:Portofolio! @belongsTo(relation: "portofolio")
+    url: String!
+    created_at: DateTime!
+    updated_at: DateTime!
+}

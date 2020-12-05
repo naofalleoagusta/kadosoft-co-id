@@ -1,0 +1,43 @@
+.active-btn {
+    background: none;
+    border-radius: 15px;
+    border: 2px solid #ff6f00;
+    cursor: pointer;
+    color: #ff6f00;
+    font: 500 0.9rem "Roboto", sans-serif;
+    transition-duration: 0.5s;
+    padding: 0.375rem 0.75rem;
+}
+
+.active-btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .active-btn:hover {
+        border: 2px solid #fed266;
+        color: #fed266;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .active-btn:hover {
+        border: 2px solid #ff6f00;
+        color: #ff6f00;
+    }
+}
+
+.back-button {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.3rem;
+    opacity: 0.6;
+    cursor: pointer;
+    font-size: x-large;
+    transition-duration: 0.5s;
+}
+
+.back-button:hover {
+    opacity: 0.8;
+}
+

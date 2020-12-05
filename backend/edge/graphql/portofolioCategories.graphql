@@ -1,0 +1,7 @@
+
+type PortofolioCategories {
+    id: ID!
+    category_name: String!
+    created_at: DateTime!
+    updated_at: DateTime!
+}

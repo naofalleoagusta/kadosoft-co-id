@@ -1,0 +1,11 @@
+
+type User {
+    id: ID!
+    name: String!
+    email: String!
+    phone: String
+    company: String
+    message: String
+    created_at: DateTime!
+    updated_at: DateTime!
+}

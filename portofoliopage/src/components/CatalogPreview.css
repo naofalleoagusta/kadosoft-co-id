@@ -1,0 +1,158 @@
+.catalog-card {
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05), 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.catalog-photo {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+.catalog-main-photo {
+    border-radius: 1.5rem;
+}
+
+.catalog-card-col {
+    height: 35%;
+}
+.catalog-category {
+    font-size: 0.8rem;
+    border-radius: 10px;
+    color: #ff6f00;
+    border: 1px solid #ff6f00;
+    cursor: default;
+}
+
+.btn-kadosoft:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+.btn-kadosoft {
+    background: none;
+    border-radius: 15px;
+    border: 2px solid #171347;
+    cursor: pointer;
+    color: #171347;
+    font: 500 0.9rem "Roboto", sans-serif;
+    transition-duration: 0.5s;
+    padding:.375rem .75rem;
+}
+
+.btn-kadosoft:hover {
+    border: 2px solid #ff6f00;
+    color: #ff6f00;
+}
+@media only screen and (max-width: 991px) {
+    .catalog-main-photo {
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .catalog-title {
+        padding: 0.5rem 2rem 0.5rem 2rem;
+    }
+    .catalog-description {
+        padding: 0.5rem 2rem 0.5rem 2rem;
+    }
+    .catalog-title {
+        padding: 0.25rem 2rem 0.25rem 2rem;
+    }
+
+    .modal-catalog-content{
+        padding: 1.5rem 1rem 1.5rem 1rem;
+    }
+    .modal-close-button {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.3rem;
+        cursor: pointer;
+        opacity: 0.8;
+        font-size: x-large;
+    }
+    .demo-btn{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding:0.5rem 2rem 0rem 2rem;
+    }
+}
+
+.catalog-back-button {
+    color: white;
+}
+.catalog-back-button-wrapper {
+    color: black;
+}
+
+.catalog-detail {
+    padding: 0 !important;
+}
+@media only screen and (min-width: 992px) {
+    .catalog-main-photo {
+        border-radius: 1.5rem;
+    }
+    .modal-catalog-content{
+        padding: 0rem 2rem 0rem 0;
+    }
+    .catalog-title {
+        padding: 1.5rem 2rem 0.25rem 2rem;
+        margin:0;
+    }
+    .modal-close-button {
+        position: absolute;
+        top: 0.5rem;
+        left: 0.3rem;
+        opacity: 0.6;
+        cursor: pointer;
+        font-size: larger;
+        transition-duration: 0.5s;
+    }
+    .catalog-description {
+        padding: 0.5rem 2rem 0rem 2rem;
+        height: 250px;
+        overflow-y: auto;
+    }
+    .demo-btn{
+        padding: 0.75rem 2rem 0rem 2rem;
+    }
+}
+.modal-content {
+    border-radius: 1.5rem !important;
+}
+.modal-close-button:hover {
+    opacity: 0.7;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.example-enter {
+    opacity: 0.01;
+}
+.example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+.example-leave {
+    opacity: 1;
+}
+.example-leave .example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}

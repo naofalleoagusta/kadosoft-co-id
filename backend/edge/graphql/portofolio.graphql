@@ -1,0 +1,11 @@
+
+type Portofolio {
+    id: ID!
+    name: String!
+    category:PortofolioCategories! @belongsTo(relation: "category")
+    photo:[PortofolioPhotos!] @hasMany(relation: "photo")
+    url: String!
+    description: String!
+    created_at: DateTime!
+    updated_at: DateTime!
+}
